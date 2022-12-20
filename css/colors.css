@@ -1,7 +1,8 @@
 /* ---------- Color Module Styles ----------- */
 
 body {
-  color: #3b3b3b;
+  /*text och under footer */
+  color: #343a40;
   background: #adb5bd;
 }
 
@@ -31,19 +32,19 @@ body {
 
 a,
 .link {
-  color: #0071b3;
+  color: #FF69B4;
 }
 
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2;
+  color: #AA336A;
 }
 
 a:active,
 .link:active {
-  color: #23aeff;
+  color: #fff;
 }
 
 .page-item.active .page-link {
@@ -53,7 +54,7 @@ a:active,
 
 .page-link,
 .page-link:hover {
-  color: #0071b3;
+  color: #AA336A;
 }
 
 .sidebar .block {
@@ -62,17 +63,17 @@ a:active,
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #FF69B4;
+  border-color: #702963;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #0256b1;
+  background-color: #AA336A;
 }
 
 .site-footer {
-  background: #292929;
+  background: #343a40;
 }
 
 .region-header,
@@ -102,4 +103,13 @@ a:active,
 [dir="rtl"] .color-form .color-palette .lock {
   right: -20px;
   left: 0;
+}
+
+.node--view-mode-teaser h2 a {
+  color: #f9f9f9;
+}
+
+.nav-link {
+color: #AA336A;
+
 }
